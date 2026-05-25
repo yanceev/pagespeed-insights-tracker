@@ -5,3 +5,7 @@ env:
     secret: GEMINI_API_KEY
     availability:
       - RUNTIME
+  - variable: FIREBASE_PROJECT_ID
+    value: wizy-psi-tracker
+    availability:
+      - RUNTIME
